@@ -1,6 +1,10 @@
 #pragma once
 #include "Engine/GameObject.h"
 class PlayScene : public GameObject {
+private:
+	int hModel_;
+	Transform transform_;
+	float x;
 public:
 	//コンストラクタ
 	//引数：parent  親オブジェクト（SceneManager）
